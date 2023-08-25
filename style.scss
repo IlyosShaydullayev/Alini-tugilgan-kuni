@@ -1,0 +1,122 @@
+.section-ilyos{
+    width: 1440px;
+    .title{
+        color: #18A7A7;
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 120px;
+        margin-top: 33px;
+    }
+    .title2{
+        color: #18A7A7;
+        font-family: Roboto;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 33px */
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    .blog{
+        position: relative;
+        .title{
+            position: absolute;
+            top: 30px;
+            left: 660px;
+            width: 168px;
+            color: var(--white, #FFF);
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; /* 27px */
+            z-index: 2;
+        }
+        .body{
+            position: absolute;
+            top: 137px;
+            left: 800px;
+            color: var(--opacity-2, #867777);
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%; /* 21px */
+            width: 213px;
+            background: #fff;
+            padding: 10px 50px 10px 2 0px;
+            z-index: 2;
+        }
+        .search{
+            position: absolute;
+            top: 175px;
+            left: 1040px;
+            z-index: 3;
+        }
+        .img10{
+            position: absolute;
+            top: 200px;
+            left: 950px;
+        }
+        .img1{
+            position: absolute;
+            top: 54px;
+            // left: 150px;
+        }
+        .img2{
+            position: absolute;
+            top: 54px;
+            left: 391px;
+        }
+        .img3{
+            width: 360px;
+            height: 282px;
+            border-radius: 10px;
+            background: #2D7979;
+            position: absolute;
+            top: 54px;
+            left: 782px;
+        }
+        .img4{
+            position: absolute;
+            top: 200px;
+            // left: 150px;
+            width: 360px;
+            height: 282px;
+        }
+        .img5{
+            position: absolute;
+            top: 200px;
+            left: 391px;
+        }
+        .img6{
+            position: absolute;
+            top: 346px;
+            left: 391px;
+        }
+        .img7{
+           position: absolute;
+           top: 492px;
+        //    left: 150px; 
+        }
+        .img8{
+            position: absolute;
+            top: 492px;
+            left: 391px;
+        }
+        .img9{
+            position: absolute;
+            top: 346px;
+            left: 782px;
+        }
+    }
+}
